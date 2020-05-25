@@ -1,0 +1,15 @@
+#sponsors{
+    padding: 80px 0;
+    @include media-breakpoint-down(md){
+        padding: 40px 0;
+        .space{
+            margin-bottom: 20px;
+        }
+    }
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+}

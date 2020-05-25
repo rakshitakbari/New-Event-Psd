@@ -1,0 +1,60 @@
+#hero{
+    background: url(../images/intro-bg.jpg) 50% 0 repeat-y;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: $white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-position: 50% 0px;
+    .hero-details{
+        text-align: center;
+        h3{
+            font-weight: 500;
+            line-height: 36px;
+            font-size: 24px;
+            color: $white;
+            letter-spacing: 2px;
+        }
+        h1{
+            font-size: 40px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            line-height: 1.1;
+            color: $white;
+        }
+        .btn{
+            background: transparent;
+            border: 2px solid $white;
+            border-radius: 0px;
+            color: $white;
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 12px;
+            padding: 14px 42px;
+            margin-top: 42px;
+            margin-right: 12px;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                background-color: $white;
+                color: $black;
+                -webkit-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+        .btn-danger {
+            background: #f2545f;
+            border-color: transparent;
+            &:hover{
+                background-color: transparent;
+                -webkit-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+                border: 2px solid $white;
+                color: $white;
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+#contact-us{
+    background: url(../images/contact-bg.jpg) 50% 0 repeat-y;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    @include media-breakpoint-down(md){
+        padding: 40px 0;
+    }
+    .contact-us-space{
+        @include media-breakpoint-down(md){
+            margin-bottom: 20px;
+        }
+    }
+    .contact_des{
+        h3{
+            padding-bottom: 12px;
+            line-height: 36px;
+            font-weight: 500;
+            font-size: 24px;
+            color: $black;
+        }
+        p{
+            color: #707070;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0 0 10px;
+        }
+        .btn-danger {
+            background: #f2545f !important;
+            border-color: transparent;
+        }
+        .btn {
+            background: transparent;
+            border: 2px solid $white;
+            border-radius: 50px;
+            color: $white;
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 12px;
+            padding: 14px 42px;
+            margin-top: 42px;
+            margin-right: 12px;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                background-color: #333333;
+                -webkit-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+                color: $white;
+            }
+        }
+    }
+    .contact_detail{
+        background: $white;
+        padding: 3rem;
+        .section-title{
+            h2{
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 600;
+                line-height: 1.1;
+                color: $black;
+                @include media-breakpoint-down(sm){
+                    font-size: 20px;
+                }
+            }
+        }
+        .form-control {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #f0f0f0;
+            border-radius: 0px;
+            box-shadow: none;
+            margin-bottom: 16px;
+            transition: all 0.4s ease-in-out;
+        }
+        input {
+            height: 45px;
+        }
+        textarea.form-control {
+            height: auto;
+        }
+        input[type="submit"] {
+            background: #222;
+            border-radius: 100px;
+            border: none;
+            color: $white;
+            letter-spacing: 2px;
+            height: 50px;
+            margin-top: 12px;
+            transition: all 0.4s ease-in-out;
+        }
+    }
+}

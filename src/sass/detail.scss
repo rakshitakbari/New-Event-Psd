@@ -1,0 +1,26 @@
+#detail{
+    background: #222;
+    color: $white;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    margin: 80px 0;
+    .detail-three{
+        i{
+            color: #f2545f;
+            font-size: 48px;
+        }
+        h3{
+            padding-bottom: 12px;
+            line-height: 36px;
+            font-weight: 500px;
+            font-size: 24px;
+            color: $white;
+        }
+        p{
+            color: #707070;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}
