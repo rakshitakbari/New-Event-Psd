@@ -11,6 +11,9 @@
     @include media-breakpoint-down(md){
         margin: 40px 0;
     }
+    @include media-breakpoint-down(md){
+        padding: 40px 0;
+    }
     .register-details{
         @include media-breakpoint-down(md){
             margin-bottom: 20px;
